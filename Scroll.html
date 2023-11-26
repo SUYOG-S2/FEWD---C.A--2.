@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jail Forge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Joti+One&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="home"><a href="./failed.html">Home</a></div>
+    </header>
+    <div id = "js_timer">
+        <div id="timer">00:00</div>
+    </div>
+    <div class="point">
+        <div class="oint">Jail Forge</div>
+        
+        <div class="suffer">Unlock it to Escape.<br>*Hint : Recall the year, When you saw the war-fight for the first time.*</div>
+
+        <div class="boy">
+            <div class="tex">
+                <div class="numpad">
+                    <div class="display">
+                        <input type="text" id="opy">
+                    </div>
+                    <div class="num">
+                        <div class="tex r r1">
+                            <div><span>1</span></div>
+                            <div><span>2</span></div>
+                            <div><span>3</span></div>
+                        </div>
+                        <div class="tex r r2">
+                            <div><span>4</span></div>
+                            <div><span>5</span></div>
+                            <div><span>6</span></div>
+                        </div>
+                        <div class="tex r r3">
+                            <div><span>7</span></div>
+                            <div><span>8</span></div>
+                            <div><span>9</span></div>
+                        </div>
+                        <div class="tex r r4">
+                            <div><span>0</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="submit" id= "mky" class="done">DONE</button>
+    <script>
+        var btn = document.querySelectorAll(".r > div")
+        var inp = document.querySelector("input")
+            btn.forEach(val=>{
+            val.addEventListener("click",()=>{
+            inp.value+=val.innerText
+    })
+})
+    </script>
+    <script src="timer.js"></script>
+    <script src="scroll2.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Joti One', serif;
+}
+body{
+    background-image: url("./assests/23.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+h3{
+    padding-bottom: 70px;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+}
+.exit{
+    margin: 30px 30px;
+    display: flex;
+    justify-content: right;
+}
+.exit a{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    padding: 5px 20px;
+    color: red;
+    font-size: x-large;
+}
+.body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+    margin: 50px 0px;
+}
+.start{
+    width: 170px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+.stat{
+    font-size: 35px;
+    align-items:center;
+
+}
+.rules{
+    width: 90px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+h1{
+    font-family: 'Jacques Francois Shadow', serif;
+    font-size: 60px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: white; 
+    color: red;
+}
+h3{
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: red; 
+    color: white;
+}
+.scoreappend{
+    display: flex;
+    justify-content: center;
+    font-size: 9vh;
+}
+.over{
+    margin-top: -5vh;
+}
+
+.two{
+    height: 75vh;
+}
+.score, .scoreappend{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12vh;
+    margin: 10px;
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: red; 
+    color: white;
+}
+.scoreappend{
+    margin: 70px;
+    padding: 10px 50px;
+}
+.foot{
+    width: max-content;
+    font-size: 3vh;
+    margin-left: 30px;
+    margin-top: 80px;
+    color: #ffffff;
+    -webkit-text-stroke: #000;
+    -webkit-text-stroke-width: 1px;
+    padding: 0px 0px;
+
+}
+
+.main{
+    background-image: url('./assests/23.jpg');
+    background-position: fixed;
+}
+.body3{
+    text-align: center;
+    color: #ffffff;
+    -webkit-text-stroke: #000;
+    -webkit-text-stroke-width: 1px;
+    margin : 30px 40px 0px 40px;
+}
+
+h1{
+    font-size: 12vh;
+    margin: 40px;
+}
+h3{
+    margin: 15px 0px 10px 10px;
+    font-size: 6vh;
+    font-family: 'Joti One', serif;
+
+}
+p{
+    margin: 0px 20px;
+    padding-top: 20px;
+    font-size: 3.8vh;
+    line-height: 10vh;
+}
+.seven{
+    font-size: 50px;
+}

@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Joti One', serif;
+}
+body{
+    background-image: url('./assests/48.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+}
+#timer{
+    font-size: xx-large;
+    background-color: #ffffff;
+    color: red;
+    width: max-content;
+    margin-left: 2vw;
+}
+.home{
+    margin: 30px 30px;
+    display: flex;
+    justify-content: left;
+
+}
+.home a{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    padding: 5px 10px;
+    color: red;
+    font-size: x-large;
+}
+.oint{
+    font-family: 'Jacques Francois Shadow', serif;
+    font-size: 100px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: white; 
+    color: red;
+    display: flex;
+    justify-content:center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background: transparent;
+    backdrop-filter: blur('100%');
+    color: red;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 1px solid whitesmoke;
+    width: 55%;
+}
+.container h1{
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+.container .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 5px;
+    font-size: 22px;    
+    background-image: linear-gradient(rgb(255, 255, 255), red);
+    -webkit-text-stroke-width: 1px; 
+}
+.input-box input::placeholder {
+    color: black;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 20vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+    border-radius: 5px;
+    box-decoration-break: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 4vh;
+    font-weight: 600;
+    color: red;
+}
+
+h1{
+    font-size: 75px;
+    margin-top: -10px;
+}
+
+.container{
+    margin-left: 20vw;
+}
+
+.btn{
+    margin-left: 16vh;
+}
+.suffer{
+    width: 75%;
+    color: red;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    padding: 15px 5px;
+    color: red;
+    border: 2px solid red;
+    margin: 30px 10vw;
+    text-align: center;
+}
+.done{
+    width: max-content;
+    color: red;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    padding: 5px 20px;
+    color: red;
+    margin: 5vw 61.7vw;
+}
+.foots{
+    font-size: xx-large;
+    width: max-content;
+    color: red;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    padding: 8px 5px;
+    color: red;
+    margin-left: 11vw;
+}
+.on{
+    width: 75%;
+    color: red;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    padding: 15px 5px;
+    color: red;
+    border: 2px solid red;
+    text-align: center;
+    margin-left: 12vw;
+}
+/* .flu{
+    width: 30vh;
+    color: rgb(213, 225, 236);
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.fl{
+    width: 75vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.7vh;
+}
+.flute{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.of{
+    padding-top: 10px;
+    width: 75%;
+    color: red;
+    font-size: 32px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    padding: 15px 5px;
+    color: red;
+    border: 2px solid red;
+    text-align: center;
+    margin-left: 12vw;
+}
+.stop{
+    width: 30vh;
+    color: rgb(213, 225, 236);
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 35px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    padding: 5px 10px;
+    margin: 6vw 12vw;
+}
+.flyt{
+    width: 75vw;
+    font-size: 40px;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    color: red;
+    
+
+}
+.run{
+        width: max-content;
+        color: red;
+        font-size: 30px;
+        -webkit-text-stroke-width: 1px; 
+        -webkit-text-stroke-color: black; 
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+        padding: 5px 20px;
+        color: red;
+        margin: 1vw 79vw;
+    
+}
+.fly{
+    width: 60%;
+    font-size: 40px;
+}
+.roots{
+    font-size: xx-large;
+    width: max-content;
+    color: red;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    padding: 8px 5px;
+    color: red;
+    margin-left: 12vw
+}
+.tex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boy{
+    width:80vw;
+    height: 3vw;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.numpad{
+    border-radius: 10px;
+    background: #07070779;
+}
+.numpad .display{
+    border-bottom: 2px solid red;
+}
+.numpad .display input{ 
+    width: 250px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    background: none;
+    text-align: center;
+    color: red;
+    font-size: 2em;
+}
+.numpad .num > .r div{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid rgb(249, 249, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(185, 40, 40);
+}
+.point{ 
+    align-items: center;
+
+}
+#board {
+    width: 360px;
+    height: 360px;
+    background-color: rgb(203, 203, 203);
+    border: 5px solid red;
+    background-image: url('./assests/56.jpg') ;
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid red;
+}
+.nine{
+    width: 60% ;
+    margin: 0.7vw 19vw;
+}
+.yes{
+    width: max-content;
+    color: red;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    padding: 5px 20px;
+    color: red;
+    margin-left: 80vw;
+    margin-bottom: 30px;
+}
